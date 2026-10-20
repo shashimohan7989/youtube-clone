@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>design</title>
+
+        <style>
+            .header {
+                display: flex;
+                background-color: rgb(146, 109, 192);
+                
+                flex-direction: row;
+                justify-content: space-between;
+                height: 50px;
+                align-items: center;
+                
+            }
+
+            .left-section {
+                
+                color: white;
+                width: 150px;
+                
+
+                margin-left: 10px;
+                
+            }
+            .middle-section{
+                
+                flex: 1;
+                margin-left: 70px;
+                margin-right: 100px;
+                display: flex;
+                
+
+
+            }
+
+            .right-section{
+                
+                width: 200px;
+                
+
+            }
+
+            button {
+                color: white;
+                background-color: rgb(146, 109, 192);
+                border-style: solid;
+                border-color: white;
+                margin-right: 10px;
+                padding: 10px 15px;
+            }
+
+            .search-bar {
+               flex: 1;
+               display: flex;
+                width: 150px;
+                border-radius:50px;
+                padding: 10px 10px;
+                max-width: 500px;
+            }
+        </style>
+
+    </head>
+
+    <body>
+
+        <div class="header">
+            <div class="left-section">
+                Home
+
+            </div>
+
+            <div class="middle-section">
+                <input class="search-bar" placeholder="Search">
+
+            </div>
+
+            <div class="right-section">
+                <button>Download</button>
+
+            </div>
+        </div>
+
+    </body>
+</html>
